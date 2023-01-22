@@ -11,9 +11,9 @@
 Console.WriteLine("Введите размерность массива"); // просим задать размерность метод первоначального массива
 int N = Convert.ToInt32(Console.ReadLine());
 string[] array = new string[N];
-for ( int i = 0; i < N; i++)
+for (int i = 0; i < N; i++)
 {
-    Console.WriteLine($"Введите {i} элемент массива"); 
+    Console.WriteLine($"Введите {i} элемент массива");
     array[i] = Convert.ToString(Console.ReadLine()); // заполняем массив данными пользователя
 }
 Console.WriteLine();
@@ -21,18 +21,18 @@ PrintArray(array); // выводим на экран первоначальны�
 Console.WriteLine();
 PrintArray(New3SimbolsArray(array)); // выводим на экран новый массив
 
-void PrintArray(string [] array) // Метод вывода массива
+void PrintArray(string[] array) // Метод вывода массива
 {
-    for (int i=0;i<array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
         Console.Write($"{array[i]}, ");
     Console.WriteLine();
 }
 
-string[] New3SimbolsArray(string [] array)  // Метод для выявления элементов массива меньше 4 знаков и вормирование нового массива
+string[] New3SimbolsArray(string[] array)  // Метод для выявления элементов массива меньше 4 знаков и вормирование нового массива
 {
     string[] newarray = new string[array.Length];
     int n = 0;
-    for (int i = 0; i<array.Length;i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length < 4)
         {
