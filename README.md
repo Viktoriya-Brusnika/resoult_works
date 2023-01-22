@@ -15,4 +15,6 @@
 
 Для решения задачи были реализованы 2 метода: PrintArray для вывода массива и New3SimbolsArray для сохранения выбранных элементов в новый массив.
 
-![Блок-схема](https://drive.google.com/file/d/1-OScEiYvV3j334ydnNpa8C-hxgjnvvFp/view?usp=share_link)
+Блок-схема решения задачи:
+
+![Блок-схема](/resoult_work/diagram.jpg)
